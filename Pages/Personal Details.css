@@ -1,16 +1,16 @@
 
 @font-face {
     font-family: 'Raleway';
-    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Raleway/Raleway-Medium.ttf") format("opentype");
+    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/Raleway/Raleway-Medium.ttf") format("opentype");
 }
 @font-face {
     font-family: 'Gothic A1';
-    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Gothic A1/Gothic A1 Medium 500.ttf") format("opentype");
-    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Gothic A1/Gothic A1 SemiBold 600.ttf") format("opentype");
+    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/Gothic A1/Gothic A1 Medium 500.ttf") format("opentype");
+    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/Gothic A1/Gothic A1 SemiBold 600.ttf") format("opentype");
 }
 @font-face {
     font-family: 'Gothic A1';
-    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Gothic A1/Gothic A1 SemiBold 600.ttf") format("opentype");
+    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/Gothic A1/Gothic A1 SemiBold 600.ttf") format("opentype");
     font-weight: bold;
 }
 
