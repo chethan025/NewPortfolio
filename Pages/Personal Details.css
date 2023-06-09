@@ -1,0 +1,203 @@
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Raleway/Raleway-Medium.ttf") format("opentype");
+}
+@font-face {
+    font-family: 'Gothic A1';
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Gothic A1/Gothic A1 Medium 500.ttf") format("opentype");
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Gothic A1/Gothic A1 SemiBold 600.ttf") format("opentype");
+}
+@font-face {
+    font-family: 'Gothic A1';
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Gothic A1/Gothic A1 SemiBold 600.ttf") format("opentype");
+    font-weight: bold;
+}
+
+.l{
+    color: black;
+}
+
+.j{
+    color: black;
+    font-weight: medium 300;
+    font-size: 1vw;
+    cursor: hand;
+}
+.hh{
+    font-size: 3.5vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+.pdes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+
+.rnd{
+    background: #2e2e2e;
+    border-radius: 50%;
+    height: 65%;
+    margin:  5.5vw 4vw;
+    position: relative;
+    overflow: hidden;
+}
+.rndimg{
+    width: 20vw;
+    height: 10vh;
+    display: block;
+    opacity: 0%;
+}
+
+.tdit{
+    font-family: Gothic A1;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    padding: 0.5vw 4.5vw;
+    color: #000000;
+}
+
+.tdit2{
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 1.8vw;
+padding: 0vw 5vw 0vw 0vw;
+color: #000000;
+}
+
+.bhsg{
+    display: grid;
+    place-items: center;
+    width: max-content;
+    height: max-content;
+}
+
+.hcs{
+    display: grid;
+    place-items: center;
+    margin: 1vh 1vh 5vh 1vh;
+}
+
+.wadd{
+    color: #000000;
+}
+
+.fs{
+    border: 0px;
+    width: max-content;
+    height: max-content;
+}
+
+.bss{
+    width: 4vw;
+    height: 2vh;
+}
+
+
+.quli{
+    height: 100vh;
+}
+
+div.tag{
+    position: relative;            
+    display: flex;       
+    justify-content: center;   
+    align-items: center;    
+    height: 60vh;       
+ }
+
+table.qv{       
+    position: absolute;
+    width: 83.5vw;
+    height: 46vh;
+    margin: 2px;
+    border-collapse: collapse;
+    background: #fafafa;
+ }
+ 
+thead.had{
+    height: 7.6vh;
+    background: #1D1D1D;
+    color: #eeee;
+    font-family: Gothic A1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vw;
+    align-self: center;
+}
+
+tbody.bgk{
+    position: relative;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8vw;
+    text-align: center;
+    color: #1A1A1A;
+}
+a.clc{
+    position: relative;
+    color: #4c1179;
+    text-decoration: none;
+    transition: 100ms;
+}
+
+a.clc:hover{
+    color: #1D1D1D;
+}
+
+.fabh{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.lggo{
+    width: 5vw;
+    height: 10vh;
+    margin: 2vh 2vh 0vh 2vh;
+}
+
+.crdas{
+    display: grid;
+    place-items: center;
+    padding: 0%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    width: 16vw;
+    height: 32vh;
+    margin: 3vw 6vw;
+    background-color: #2e2e2e;
+    transition: transform 0.3s;
+}
+
+.crdas:hover{
+    transform: scale(1.1);
+}
+
+.crdhq{
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-size: 1.5vw;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    margin: 2vh 2vh 4.4vh 2vh;
+    }
+
+.crpps{
+    font-family: SulphurPoint;
+    font-style: normal;
+    word-break: break-all;
+    font-size: 1.5vw;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0vh 4vh 6vh 4vh;
+    font-weight: thin;
+}
