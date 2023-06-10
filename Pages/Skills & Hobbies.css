@@ -67,8 +67,7 @@
   font-family: Gothic A1;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 2vw;
   text-align: right;
   margin: 2vw;
   color: #000000;
@@ -82,8 +81,7 @@
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 1.25vw;
   text-align: right;
   letter-spacing: 0.08em;
   margin: 0vw 4vw;
