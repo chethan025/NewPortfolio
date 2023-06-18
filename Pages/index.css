@@ -10,48 +10,48 @@ body{
 
 @font-face {
     font-family: 'Roxborough';
-    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/Roxborough CF.ttf");
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Roxborough CF.ttf");
 }
 @font-face {
     font-family: 'Poappins';
-    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/Poppins/Poappins-Regular.otf") format("opentype");
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Poppins/Poappins-Regular.otf") format("opentype");
 }
 @font-face {
     font-family: 'Poappins';
-    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/Poppins/Poppins-Thin.otf") format("opentype"); 
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Poppins/Poppins-Thin.otf") format("opentype"); 
     font-weight: thin;
 }
 @font-face {
     font-family: 'Poappins';
-    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/Poppins/Poppins-Medium.otf") format("opentype"); 
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Poppins/Poppins-Medium.otf") format("opentype"); 
     font-weight: medium;
 }
 @font-face {
     font-family: 'Sequel100Black-75';
-    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/sequel-100-black-75.ttf");
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/sequel-100-black-75.ttf");
 }
 @font-face {
     font-family: 'GeosansLight';
-    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/GeosansLight.ttf");
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/GeosansLight.ttf");
 }
 @font-face {
     font-family: 'Philosopher';
-    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/Philosopher/Philosopher-Regular.ttf");
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Philosopher/Philosopher-Regular.ttf");
 }
 @font-face {
     font-family: 'SulphurPoint';
-    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/Sulphur/SulphurPoint-Regular.otf") format("opentype");
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Sulphur/SulphurPoint-Regular.otf") format("opentype");
 }
 @font-face {
     font-family: 'SulphurPoint';
-    src: url("https://chethan025.github.io/NewPortfolio/Sources/Fonts/Sulphur/SulphurPoint-Light.otf") format("opentype");
+    src: url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/Fonts/Sulphur/SulphurPoint-Light.otf") format("opentype");
     font-weight: thin;
 }
 
 ::-webkit-scrollbar{
     background: transparent;
-    width: 2px;
-    height: 2px;
+    width: 1px;
+    height: 1px;
 }
 
 
@@ -63,15 +63,27 @@ body{
 
 .wel{
     width: 100vw;
-    height: 100vh;
-    background: linear-gradient(180deg, rgba(70, 70, 70, 0.17) 0%, rgba(73, 73, 73, 0.57) 100%), url("https://chethan025.github.io/NewPortfolio/Sources/realistic_tech_company (2).jpg");
+    height: 50vw;     /* hhhh */
+    background: linear-gradient(180deg, rgba(70, 70, 70, 0.17) 0%, rgba(73, 73, 73, 0.57) 100%), url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/realistic_tech_company (2).jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .nav{
     display: flex;
+}
+
+.lll{
+    margin: 4vh 3.8vw;
+    color: rgb(255, 255, 255);
+    font-family: Roxborough;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
 }
 
 .lnks{
@@ -88,7 +100,6 @@ body{
     font-family: Poappins;
     font-style: normal;
     font-size: 1.2vw;
-    line-height: 39px;
     letter-spacing: 0.08em;
     color: #eeeeee;
 }
@@ -96,13 +107,13 @@ body{
 .cgh{
     display: flex;
     align-items: center;
-    height: 82vh;
+    height: 42vw;
     padding: 0vw 5vw;
 }
 
 .chd{
     margin-left: auto;
-    height: 40vh;
+    height: 20vw;
 }
 
 .ctx{
@@ -132,34 +143,24 @@ body{
     align-items: end;
     place-self: center;
     width: 28vw;
-    height: 66vh;
+    height: 33vw;
     background: rgba(10, 10, 10, 0.38);
     border: 1px solid rgba(0, 0, 0, 0.49);
 }
 
 .daf{
     width: 25vw;
-    height: 66vh;
-}
-
-.lll{
-    margin: 4vh 3.8vw;
-    color: rgb(255, 255, 255);
-    font-family: Roxborough;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3vw;
-    letter-spacing: 0.08em;
-    color: #FFFFFF;
+    height: 33vw;
 }
 
 .btn{
     display: grid;
     place-items: center;
     position: absolute;
-    bottom: 0.4vh;
-    right: 50vw;
+    bottom: 5vw;
+    
     left: 50vw;
+    transform: translate(-50%, 50%);
 }
 
 .button{
@@ -168,14 +169,14 @@ body{
     border: 2px solid #FFFFFF;
     border-radius: 2.8vw;
     width: 3vw;
-    height: 12vh;
+    height: 6vw;
     text-align: center;
     padding: 0;
 }
 
 .bti{
     width: 2.3vw;
-    height: 6vh;
+    height: 3vw;
 }
 
 .srl{
@@ -188,19 +189,20 @@ body{
 }
 
 .scl{
-    height: 15vh;
+    height: 7.5vw;
     background-color: #1D1D1D;
     display: flex;
     position: relative;
 }
 
 .lgimg{
-    width: 100vw;
-    height: 15vh;
+    width: 100vw;/* 
+    height: 7.5vw; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: absolute;
+    margin: 2vw;
 }
 
 .lomg{
@@ -220,13 +222,13 @@ body{
 
 
 .prsnl{
-    height: 100vh;
+    height: 50vw;
     display: flex;
 }
 
 .prmg{
     width: 45.5vw;
-    height: 100vh;
+    height: 50vw;
     opacity: 40%;
     color: #eeeeee;
 }
@@ -234,7 +236,7 @@ body{
 .smgd{
     margin: 0vw 4.5vw;
     width: 45.5vw;
-    height: 100vh;
+    height: 50vw;
     background-color: #050505;
 }
 
@@ -274,7 +276,7 @@ body{
 
 .prb{
     width: 6vw;
-    height: 5vh;
+    height: 2.5vw;
     margin: 0vw 7vw 4vw 0vw;
     background-color: #1D1D1D;
     color: #eeeeee;
@@ -283,6 +285,12 @@ body{
     font-weight: 600;
     font-size: 1vw;
     color: #FFFFFF;
+    border: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.prb:hover{
+    background-color:#020202c2; 
 }
 
 abbr[title]{
@@ -292,7 +300,7 @@ abbr[title]{
 
 .ftrr{
     width: 100%;
-    height: 8vh;
+    height: 4vw;
     background-color: #1F1F1F;
     display: grid;
     place-items: center;
@@ -308,4 +316,169 @@ abbr[title]{
     color: #FFFFFF;
 }
 
+.dg{
+    display: none;
+}
+
+.righ{display: none;}
+
+
+
+
+
+
+@media screen and (max-width: 600px)
+{
+
+    body{
+       margin: 0;
+    }
+
+    ::-webkit-scrollbar{
+        background: transparent;
+        width: 0px;
+        height: 1px;
+    }
+     
+
+    .wel{
+        background: linear-gradient(180deg, rgba(70, 70, 70, 0.17) 0%, rgba(22, 22, 22, 0.87) 100%), url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/realistic_tech_company (2).jpg");
+    background-position: center;
+        
+        height: 100vh;
+    }
+    .lll{
+        font-size: 8vw;
+        margin: 4vw 6vw;
+    }
+    .lnks{
+        padding: 0px;
+    }
+    .lnj{
+        font-size: 2vw;
+        margin: 2vw ;
+    }
+    .cgh{
+        display: block;
+        height: 90vh;
+        justify-content: center;
+        position: relative;
+    }
+    .chd{
+        display: none;
+        margin-left: 0;
+    }
+    .dg{
+        display: block;
+    }
+    .ctx{
+        font-size: 7vw;
+        margin: 4vw 0;
+        text-align: left;
+    }
+    .ctcx{
+        line-height: 5vw;
+        letter-spacing: 0.1em;
+        font-size: 6vw;
+        width: 80vw;
+        text-align: left;
+    }
+    .box{
+        width: 60vw;
+        height: 40vh;
+    }
+    .daf{
+        width: 58vw;
+        height: 40vh;
+    }
+    .btn{
+        position: absolute;
+        bottom: 10vh;
+    }
+    .button{
+        width: 8vw;
+        height: 18vw;
+        border-radius: 50vw;
+    }
+    .bti{
+        width: 6vw;
+        height: 7vw;
+    }
+    .srl{
+        font-size: 4vw;
+        margin: 2vw;
+    }
+    .scl{
+        height: 14vw;
+    }
+    .lgimg{
+        height: 8vw;
+
+    }
+    .lomg{
+        width:20vw;
+        height: 7vw !important ;
+        margin: 0px ;
+    }
+
+
+
+    .prsnl{
+        height: 100vh;
+        position: relative;
+    }
+    .prmg{
+        width: 100vw;
+        height: 100vh;
+        opacity: 60%;
+    }
+    .smgd{
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .righ{display: block;}
+
+    .sdfh{
+        position: absolute;
+        top: auto;
+        width: 100vw;
+        height: 100vh;
+        place-items: center;
+    }
+    .gads{
+        width: 80vw;
+    }
+    .prh{
+        font-size: 10.4vw;
+        color: #FFFFFF;
+        position: relative;
+
+    }
+    .prp{
+        font-size: 5.4vw;
+        color: #FFFFFF;
+        position: relative;
+
+    }
+
+    .prb{
+        width: 25vw;
+        height: 12vw;
+        font-size: 4vw;
+
+    }
+
+
+    .ftrr{
+        width: 100%;
+        height: 10vw;
+    }
+    .last{
+        font-size: 3.6vw;
+
+    }
+
+}
 
