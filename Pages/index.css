@@ -327,7 +327,7 @@ abbr[title]{
 
 
 
-@media screen and (max-width: 600px)
+@media screen and (min-height: 1080px)
 {
 
     body{
