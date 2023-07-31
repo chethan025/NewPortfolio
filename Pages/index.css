@@ -64,7 +64,8 @@ body{
 .wel{
     width: 100vw;
     height: 50vw;     /* hhhh */
-    background: linear-gradient(180deg, rgba(70, 70, 70, 0.17) 0%, rgba(73, 73, 73, 0.57) 100%), url("https://chethan025.github.io/NewPortfolio/Sources/realistic_tech_company (2).jpg");
+    background: linear-gradient(180deg, rgba(70, 70, 70, 0.17) 0%, rgba(73, 73, 73, 0.57) 100%), 
+        url("https://chethan025.github.io/NewPortfolio/Sources/realistic_tech_company (2).jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -327,7 +328,7 @@ abbr[title]{
 
 
 
-@media screen and (min-height: 1080px)
+@media screen and (max-width: 600px)
 {
 
     body{
@@ -342,8 +343,9 @@ abbr[title]{
      
 
     .wel{
-        background: linear-gradient(180deg, rgba(70, 70, 70, 0.17) 0%, rgba(22, 22, 22, 0.87) 100%), url("C:/Users/admin/OneDrive/Documents/Personal Projects/NewPortFolio/Sources/realistic_tech_company (2).jpg");
-    background-position: center;
+        background: linear-gradient(180deg, rgba(70, 70, 70, 0.17) 0%, rgba(22, 22, 22, 0.87) 100%), 
+        url("https://chethan025.github.io/NewPortfolio/Sources/realistic_tech_company (2).jpg");
+        background-position: center;
         
         height: 100vh;
     }
@@ -426,11 +428,13 @@ abbr[title]{
     .prsnl{
         height: 100vh;
         position: relative;
+        margin: 2.5vw 0px ;
+
     }
     .prmg{
         width: 100vw;
         height: 100vh;
-        opacity: 60%;
+        opacity: 30%;
     }
     .smgd{
         width: 100vw;
