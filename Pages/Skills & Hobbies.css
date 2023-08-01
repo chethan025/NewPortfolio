@@ -1,0 +1,142 @@
+
+.flxbx{
+  display: flex;
+  justify-content: center;
+  height: max-content;
+  position: relative;
+}
+
+
+
+.stk{
+  display: grid;
+  place-items: center;
+}
+
+.hor{
+  width: 0.8vw;
+  height: 12vh;
+  background: #2e2e2e;
+}
+
+.ron{
+  width: 1.5vw;
+  height: 2.2vh;
+  background: #2e2e2e;
+  border-radius: 40%;
+}
+
+.hor2{
+  width: 0.8vw;
+  height: 15vh;
+  background: #2e2e2e;
+}
+
+.rec{
+  width: 1.5vw;
+  height: 1.5vh;
+  background: #2e2e2e;   
+}
+
+.hor3{
+  width: 0.8vw;
+  height: 20vh;
+  background: #2e2e2e;
+}
+
+.skl{
+  display: block;
+  width: 30vw;
+  height: 35vh;
+  position: relative;
+  top: 7vh;
+}
+
+.hob{
+  display: block;
+  width: 30vw;
+  height: 35vh;
+  position: relative;
+  top: 24vh;
+}
+
+.skh{
+  font-family: Gothic A1;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2vw; /* jhghggf */
+  text-align: right;
+  margin: 2vw;
+  color: #000000;
+}
+
+.hbp{
+  text-align: left;
+}
+
+.ssklp{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25vw;/* dfghjk */
+  text-align: right;
+  letter-spacing: 0.08em;
+  margin: 0vw 4vw;
+  color: #000000;
+}
+
+.hjh{
+  text-align: left;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+
+  .hor{
+    width: 1vw;  
+  }
+
+  .ron{
+    width: 3vw;
+    height: 3vw;
+  
+  }
+
+  .hor2{
+    width: 1vw;  
+  }
+
+  .rec{
+    width: 2.5vw;
+    height: 1vh;
+  
+  }
+
+  .hor3{
+    width: 1vw;  
+  }
+
+  .skl{
+    width: 60vw;
+  top: 10.5vh;
+  margin-top: 7vw;
+  }
+
+  .hob{
+    width: 60vw;
+    height: 40vw;
+    top: 24vh;
+    margin-top: 6vw;
+  }
+
+  .skh{
+  font-size: 4.2vw;
+  }
+
+  .ssklp{
+    font-size: 3.2vw;
+  }
+
+}
