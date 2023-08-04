@@ -1,4 +1,8 @@
-
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 .hfg{
     display: flex;
@@ -7,7 +11,6 @@
     margin: 4vw 0vw;
     width: 100vw;
     height: max-content;
-    
 }
 .odg{
     margin: 4vw 4vw 0 ;
@@ -15,7 +18,7 @@
 .probf{
     width: 25vw;
     transition: all ease-out 0.4s;
-    margin-bottom: 2vw;
+    
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 
     0px 5px 10px 0px rgba(0, 0, 0, 0.10), 
     0px 18px 18px 0px rgba(0, 0, 0, 0.09), 
@@ -37,11 +40,14 @@
 .probf:focus{
     transform: scale(0);
 }
+.ftrr{
+    margin-top: auto;
+}
 /* .kgs{
     position: absolute;
     bottom: 0;
-}
- */
+} */
+
 
 @media screen and (max-width: 600px){
     
