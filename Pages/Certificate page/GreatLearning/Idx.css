@@ -37,7 +37,7 @@
     transform: scale(0);
 }
 .kgs{
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
