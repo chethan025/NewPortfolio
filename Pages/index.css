@@ -319,6 +319,9 @@ abbr[title]{
 }
 
 .dg{
+    display: none;
+}
+.td{
     display: block;
 }
 
@@ -486,7 +489,7 @@ abbr[title]{
     .last{
         font-size: 3.6vw;
     }
-    .dg{
+    .td{
         display: none;
     }
     
