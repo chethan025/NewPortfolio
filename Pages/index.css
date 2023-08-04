@@ -307,6 +307,8 @@ abbr[title]{
 }
 
 .last{
+    width: 80vw;
+    text-align: center;
     font-family: Philosopher;
     font-style: normal;
     font-weight: 400;
@@ -343,8 +345,7 @@ abbr[title]{
 
     .wel{
         background: linear-gradient(180deg, rgba(70, 70, 70, 0.17) 0%, rgba(22, 22, 22, 0.87) 100%), url("https://chethan025.github.io/NewPortfolio/Sources/realistic_tech_company (2).jpg");
-    background-position: center;
-        
+        background-position: center;
         height: 100vh;
     }
     .lll{
@@ -378,8 +379,8 @@ abbr[title]{
     }
     .ctcx{
         line-height: 5vw;
-        letter-spacing: 0.1em;
-        font-size: 6vw;
+        letter-spacing: 0.05em;
+        font-size: 5vw;
         width: 80vw;
         text-align: left;
     }
@@ -429,7 +430,8 @@ abbr[title]{
     .prsnl{
         height: 100vh;
         position: relative;
-        margin: 2.5vw 0px ;
+        margin: 1.2vw 0px ;
+
 
     }
     .prmg{
@@ -456,23 +458,24 @@ abbr[title]{
         width: 80vw;
     }
     .prh{
-        font-size: 10.4vw;
+        font-size: 10vw;
         color: #FFFFFF;
         position: relative;
 
     }
     .prp{
-        font-size: 5.4vw;
+        font-size: 4.8vw;
         color: #FFFFFF;
         position: relative;
 
     }
-
+    .fvd{
+            margin: 0;
+        }
     .prb{
-        width: 25vw;
-        height: 12vw;
-        font-size: 4vw;
-
+        width: 20vw;
+        height: 10vw;
+        font-size: 3.8vw;
     }
 
 
@@ -482,7 +485,6 @@ abbr[title]{
     }
     .last{
         font-size: 3.6vw;
-
     }
 
 }
