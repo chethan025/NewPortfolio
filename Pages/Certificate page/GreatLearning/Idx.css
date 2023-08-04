@@ -1,4 +1,7 @@
+body{
+    height: 100vh;
 
+}
 
 .hfg{
     display: flex;
@@ -37,7 +40,7 @@
     transform: scale(0);
 }
 .kgs{
-    position: relative;
+    position: absolute;
     bottom: 0;
 }
 
