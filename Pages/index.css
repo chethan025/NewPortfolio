@@ -319,7 +319,7 @@ abbr[title]{
 }
 
 .dg{
-    display: none;
+    display: block;
 }
 
 .righ{display: none;}
@@ -486,6 +486,11 @@ abbr[title]{
     .last{
         font-size: 3.6vw;
     }
+    .dg{
+        display: none;
+    }
+    
+    .righ{display: block;}
 
 }
 
