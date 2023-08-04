@@ -6,8 +6,7 @@
     flex-flow: row wrap;
     margin: 4vw 0vw;
     width: 100vw;
-    max-height: max-content;
-    height: 100vh;
+    height: max-content;
 }
 .odg{
     margin: 4vw 4vw 0 ;
@@ -37,10 +36,10 @@
 .probf:focus{
     transform: scale(0);
 }
-/* .kgs{
+.kgs{
     position: absolute;
     bottom: 0;
-} */
+}
 
 
 @media screen and (max-width: 600px){
