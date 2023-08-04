@@ -1,6 +1,4 @@
-body{
-    height: 100vh;
-}
+
 
 .hfg{
     display: flex;
@@ -8,7 +6,8 @@ body{
     flex-flow: row wrap;
     margin: 4vw 0vw;
     width: 100vw;
-    height: max-content;
+    max-height: max-content;
+    height: 100vh;
 }
 .odg{
     margin: 4vw 4vw 0 ;
