@@ -388,6 +388,8 @@ abbr[title]{
     }
     .dg{
         display: block;
+        height: 50%:
+        align-item:bottom;
     }
     .ctx{
         font-size: 7vw;
