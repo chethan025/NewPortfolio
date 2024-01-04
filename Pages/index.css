@@ -388,8 +388,8 @@ abbr[title]{
     }
     .dg{
         display: block;
-        height: 50%:
-        align-item:bottom;
+        position: absolute;
+        bottom: 10vh;
     }
     .ctx{
         font-size: 7vw;
