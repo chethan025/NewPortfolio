@@ -389,7 +389,7 @@ abbr[title]{
     .dg{
         display: block;
         position: absolute;
-        bottom: 10vh;
+        bottom: 20vh;
     }
     .ctx{
         font-size: 7vw;
